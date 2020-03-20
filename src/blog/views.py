@@ -12,15 +12,15 @@ def home(request):
 
 
 def hadiths(request):
-    return render(request, 'blog/hadiths.html')
+    return render(request, 'blog/hadiths.html', {'title':'احاديث دينية'})
 
 
 def videos(request):
-     return render(request, 'blog/videos')
+     return render(request, 'blog/videos.html', {'title':'فيديوهات إرشادية'})
 
 def coronaintheworld(request):
-    return render(request, 'blog/coronaintheworld')
+    return render(request, 'blog/coronaintheworld.html', {'title':'كورونا حول العالم'})
 
 def statistics(request):
-    return render(request, 'blog/statistics')
+    return render(request, 'blog/statistics.html', {'title':'إحصائيات الوباء في المغرب'})
         
