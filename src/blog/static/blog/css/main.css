@@ -1,0 +1,28 @@
+@font-face{
+    font-family: 'Tajawal';
+    src: url('../fonts/Tajawal-Regular.ttf') format("truetype"),
+    local('Tajawal')
+}
+
+/* commun styles CSS */
+
+html, body{
+
+    direction: rtl;
+    font-family: Tajawal,sans-serif;
+    text-align: right;
+    color: blue;
+
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
