@@ -118,3 +118,11 @@
               <a href="#"> ضد كورونا </a>
              </div>
              <!-- Copyright -->
+
+
+
+code for lunch virtualenv 
+             pip install virtualenv
+             virtualenv foo
+             cd .\foo
+             .\Scripts\activate
